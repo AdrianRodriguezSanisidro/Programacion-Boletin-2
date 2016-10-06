@@ -14,7 +14,7 @@ public class Boletin2_11 {
        impV=Float.parseFloat(JOptionPane.showInputDialog("Importe de ventas "));
        km=Float.parseFloat(JOptionPane.showInputDialog("Km desprazados "));
        nDesp=Float.parseFloat(JOptionPane.showInputDialog("Numero de desprazamentos"));
-       soldoT=((soldoF+(impV*5/100)+(2*km)+(30*nDesp))-36)*18/100;
+       soldoT=((soldoF+(impV*5/100)+(2*km)+(30*nDesp)))*18/100 +36;
        JOptionPane.showMessageDialog(null,"Sueldo final ="+ soldoT);
          }
     
