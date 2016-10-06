@@ -10,8 +10,8 @@ public class Boletin2_1 {
 
     public static void main(String[] args) {
     //Escribo las variables
-        float base=0;
-    float altura=0;
+        float base;
+    float altura;
     float area;
     //Añado la opcion de escribir los datos de la base y la altura
     base= Float.parseFloat(JOptionPane.showInputDialog("Base "));
